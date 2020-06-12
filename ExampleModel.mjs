@@ -4,7 +4,7 @@ import Address from './Address.mjs';
 import { default as ClassUtil } from '../util/class.mjs';
 import { default as Util } from '../util/base.mjs';
 
-class Person extends ModelBase {
+class ExampleModel extends ModelBase {
 
     static table = 'people';
     static plural = 'People';
